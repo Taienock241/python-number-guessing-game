@@ -21,3 +21,4 @@ while guess != secret_number:
     guess = int(input("Take a guess: "))
     
 print(f"Congratulations! You guessed the number {secret_number} correctly! after {number_of_attempts} attempts.")
+print("Thanks for playing the Number Guessing Game!")
